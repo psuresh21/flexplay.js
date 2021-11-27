@@ -1,7 +1,7 @@
 # flexplay.js
 flexplay.js is interactive for learning a flexbox in CSS. It will show a real-time view of how flexbox will work where you will see directly with your eyes. There is no prior experience needed, which were few flex property controls.
 
-<img src="flexy.png">
+<img src="flexy.PNG">
 
 
 # Why do you need flexplayjs?
