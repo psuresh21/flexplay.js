@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html id="kkk" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flexplay.js</title>
+	<link rel="stylesheet" type="text/css" href="flex.css">
+</head>
+<body style="font-family: system-ui;">
+	<h1 class="play" style="margin-top: 20px;margin-bottom:20px;color: white; text-align: center;font-size: 70px">Flexplay.js</h1>
+<!-- 	<div class="mousy" id="mousy"></div> -->
+	<div id="flex" style="max-width: 36em;min-height:0em;margin: auto;padding: 30px;"class="flexbox">
+		<div id="flx-1" style="min-height: 6em;" class="flex-1"></div>
+		<div id="flx-2" style="min-height: 6em;"  class="flex-2"></div>
+		<div id="flx-3" style="min-height: 6em;"  class="flex-3"></div>
+	</div>
+	<div class="playground" style="position: absolute;bottom:32px;left:28%;display: flex;max-width: 40em;flex-wrap: wrap;margin: auto;padding: 30px;margin-top:30px;gap:0.6em;background: transparent;justify-content: center;">
+	<button style="outline: none;border: none;padding: 10px;" id="flxdir">Row</button>
+	<button style="outline: none;border: none;padding: 10px;" id="flxcol">Column</button>
+ <div style="display: flex;gap: 0.6em;">
+ 	<!-- <span style="color:white;">flex-basis</span> -->
+	<input style="width: 100px;" type="range" min="1" max="100" value="0" class="slider" id="basisone">
+	<input style="width: 100px;" type="range" min="1" max="100" value="0" class="slider" id="basistwo">
+	<input style="width: 100px;" type="range" min="1" max="100" value="0" class="slider" id="basisthree">
+</div>
+<select style="background:transparent;outline:none;border:none;border-bottom:1px solid white;color:white;text-transform: uppercase;">
+<option style="background: black;" value="fstart" id="fstart">flex-start</option>
+<option style="background: black;" value="fend" id="fend">flex-end</option>
+<option style="background: black;" value="strt" id="strt">start</option>
+<option style="background: black;" value="ed" id="ed">end</option>
+<option style="background: black;" value="sbtw" id="sbtw">space-between</option>
+<option style="background: black;" value="sarnd" id="sarnd">space-around</option>
+<option style="background: black;" value="sevy" id="sevy">space-evenly</option>
+<option style="background: black;" value="none" id="none">None</option>
+</select>
+<select style="background:transparent;outline:none;border:none;border-bottom:1px solid white;color:white;text-transform: uppercase;">
+<option style="background: black;" value="wrp" id="wrp">wrap</option>
+<option style="background: black;" value="wrp-rvsr" id="wrp-rvsr">wrap-reverse</option>
+<option style="background: black;" value="nowrp" id="nowrp">nowrap</option>
+</select>
+<label for="gaps" style="color:white;">Gap
+<input style="width: 75%;"type="text" id="flxwrap">
+</label>
+<label for="order" style="color:white;width: 30%;">Order
+<input style="width: 10%;"type="text" id="fx">
+<input style="width: 10%;"type="text" id="fxs">
+<input style="width: 10%;"type="text" id="fxsxs">
+</label>
+</div>
+
+
+
+<!-- Flex-wrap -->
+<!-- <button class="he" style="border: none;padding: 10px 10px;font-family: system-ui;font-weight: bold;color: white;font-size: 20px;cursor: pointer;" id="flxwrap">Flex-wrap</button> -->
+<script src="flexbox.js"></script>	
+</body>
+</html>
