@@ -10,5 +10,9 @@ Web designers know the flexbox property and how flexbox will work on the browser
 # tools Used:
 Javascript
 
+# site status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/55e5d64b-b4fc-4174-aff8-34755fa70624/deploy-status)](https://app.netlify.com/sites/flexplayjs/deploys)
+
 #### Note:
 I am still working on this flexplay.js to build the entire process soon.
