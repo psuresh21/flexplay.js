@@ -3,7 +3,7 @@ flexplay.js is interactive for learning a flexbox in CSS. It will show a real-ti
 
 <p align="left">
   <a href="https://psuresh21.github.io/smartscss">
-  <img src="docs/flexy.PNG">
+  <img src="flexy.png">
       </a>
   </p>
 
